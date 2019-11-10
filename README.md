@@ -31,12 +31,11 @@ We want to develop a system to automate all steps before compilation.  Thus, the
 
 We have 2 datasets for solving this problem:
 
-1. **Corpus:** Previous published Job Descriptions without the information of employers input. We need to extarct similar sentence from this corpus.(Size: 400k JD's)
+1. **Corpus:** Previous published Job Descriptions without the information of employers input. We need to extarct similar sentence from this corpus. **(Size: 400k JD's)**
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/corpus.PNG)
 
-2. **Input-Output Pair** Previous published Job Descriptions with the information of employers input. We will use this to build and validate our system.(Size: 40k Pairs)
-few examples image
+2. **Input-Output Pair** Previous published Job Descriptions with the information of employers input. We will use this to build and validate our system. **(Size: 40k Pairs)**
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Pair.PNG)
 
