@@ -48,3 +48,15 @@ We have 2 datasets for solving this problem:
 1. **Significance of Similarity:** We need to validate Sentence Encoding leads to meaningful representation vector and thus, the similarity calculated using it is significant and not random.
 2. **Generate Sentence Pairs:** To develop and evaluate methods for extracting similar sentences we need to have a reference set of similar sentences pair.
 3. **Evaluation:** We need to evaulate different methods for Sentence Encoding and select the best one.
+
+### Significance of Similarity
+
+1. We generate 2 paired sample sets:
+  a. **Actual Pair:** We take actual pairs of input and final JD from Input-Output Pair dataset.
+  b. **Random Pair:** We randomly pair the input JD's with final JD's in Input-Output Pair dataset.
+
+2. We clean these samples, form sentences for each observation in both the sample sets.
+3. We obatin sentence encoding using Google-Bert(Sentence Transformers Package in Python)(Link). For each JD(Input/Output/Both Sets), we calculate their embedding by averaging the encoding of their sentences.
+4. For each pair we calculate the similarity using Cosine Similarity(Link) from Sklearn-package(Link).
+5. On the sets of Similarity Score of Actual Pairs and Random Pairs, we conduct 2 sample t-test to test if the 2 sets are significantly different. 
+
