@@ -42,3 +42,5 @@ We have 2 datasets for solving this problem:
 1. We remove undesirable characters, punctuations, and bulletins.
 2. Use periods and the line brakes to decompose the text into sentences.
 
+![Image description](![Image description (https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/SystemDesign.PNG))
+
