@@ -35,3 +35,5 @@ We have 2 datasets for solving this problem:
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Pair.PNG)
 
 ## Suggested System Design
+
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/SystemDesign.PNG)
