@@ -2,8 +2,8 @@
 
 The past few years have been revolutionary time for Natural Language Processing, specifically Language Modelling. Several groundbreaking research works have been published, with each pushing the state-of-art at an astonishing pace.
 
-Sentence Encoding is critical use case of the Natural Language Understanding model.
-It helps to represent a sentence as a numerical vector, thus, making it possible to use mathematical operations on it.
+Sentence Encoding is a critical use case of the Natural Language Understanding model.
+It helps to represent any sentence as a numerical vector, thus, making it possible to use mathematical operations on it.
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/SentEnc.PNG)
 
@@ -14,3 +14,17 @@ The notable applications of sentence encoding are:
 But beyond, text classification and applications by big giants like Google, Natural Language Models and Sentence encoding hold immense potential to impact/increase the efficiency of business processes in medium and small size companies, specifically startups.
 
 In this project, I have demonstrated how the sentence encoding has helped to develop a system for 'Automatic Job Description Filler' for a job aggregator platform in India.
+
+## Problem Description:
+
+The company collects 'Job Descriptions' from employers, clean and process it, and finally post it on their website, from where the users can access these job vacancies. 
+
+One of the most time consuming and labor-intensive task in this process is to clean and process these job descriptions written by employer.
+
+Currently, this process is done manually, where 6 to 8 people spend 8 hours a day. They clean these inputs, break them into sentences, finding similar sentences from previous published JD's, and finally compile it to make the publishable job description.
+
+
+Input Image 
+Output Image
+
+We want to develop a system to automate all steps before compilation.  Thus, the system should be capable of cleaning the input, forming sentences, extracting similar sentences from the repository, and provide all this information to the admin for final check and compilation.
