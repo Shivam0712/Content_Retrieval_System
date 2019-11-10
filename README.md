@@ -14,15 +14,13 @@ In this project, I have demonstrated a prototype that uses sentence encoding to 
 
 ## Problem Description:
 
-1. To develop 'Automatic Job Description Filler' for a Indian platform which collects 'Job Descriptions' from employers, process it, and finally post it on their website.
+1. An Indian platform collects 'Job Descriptions' from employers, process it, and post it on website. One of the most time consuming and labor-intensive task in this process is to clean and process these job descriptions written by employers.
 
-2. One of the most time consuming and labor-intensive task in this process is to clean and process these job descriptions written by employer.
-
-3. Currently, this process is done manually, where 6 to 8 people spend 8 hours a day. They clean these inputs, break them into sentences, finding similar sentences from previous published JD's, and finally compile it to make the publishable job description.
+2. Currently, this process is done manually, where 6 to 8 people spend 8 hours a day. They clean these inputs, break them into sentences, finding similar sentences from previous published JD's, and finally compile it to make the publishable job description.
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/IOJD.PNG)
 
-4. Our system will automate the labor-intensive task. The system will clean the input, form sentences, extracting similar sentences from past, and provide all this information to the admin for final check and compilation.
+3. We will design a system which cleans the input, forms sentences, and uses sentence encoding to extract similar sentences from past JD's.
 
 ## Data Description
 
