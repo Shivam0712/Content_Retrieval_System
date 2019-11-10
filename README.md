@@ -23,9 +23,7 @@ One of the most time consuming and labor-intensive task in this process is to cl
 
 Currently, this process is done manually, where 6 to 8 people spend 8 hours a day. They clean these inputs, break them into sentences, finding similar sentences from previous published JD's, and finally compile it to make the publishable job description.
 
-
-Input Image 
-Output Image
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/IOJD.PNG)
 
 We want to develop a system to automate all steps before compilation.  Thus, the system should be capable of cleaning the input, forming sentences, extracting similar sentences from the repository, and provide all this information to the admin for final check and compilation.
 
@@ -34,8 +32,12 @@ We want to develop a system to automate all steps before compilation.  Thus, the
 We have 2 datasets for solving this problem:
 
 1. **Corpus:** Previous published Job Descriptions without the information of employers input. We need to extarct similar sentence from this corpus.(Size: 400k JD's)
-few examples image
+
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/corpus.PNG)
+
 2. **Input-Output Pair** Previous published Job Descriptions with the information of employers input. We will use this to build and validate our system.(Size: 40k Pairs)
 few examples image
+
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Pair.PNG)
 
 ## Suggested System Design
