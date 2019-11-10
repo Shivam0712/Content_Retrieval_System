@@ -20,17 +20,17 @@ In this project, I have demonstrated a prototype that uses sentence encoding to 
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/IOJD.PNG)
 
-3. We will design a system which cleans the input, forms sentences, and uses sentence encoding to extract similar sentences from past JD's.
+**In this project, we have designed a system which cleans the input, forms sentences, and uses sentence encoding to extract similar sentences from the past published JD's.**
 
 ## Data Description
 
 We have 2 datasets for solving this problem:
 
-1. **Corpus:** Previous published Job Descriptions without the information of employers input. We need to extarct similar sentence from this corpus. **(Size: 400k JD's)**
+1. **Corpus:** Previous published Job Descriptions without the information of employers input. We extarct similar sentence from JD's in this corpus. **(Size: 400k JD's)**
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/corpus.PNG)
 
-2. **Input-Output Pair** Previous published Job Descriptions with the information of employers input. We will use this to build and validate our system. **(Size: 40k Pairs)**
+2. **Input-Output Pair** Previous published Job Descriptions with the information of employers input. We will use these to build and validate our system. **(Size: 40k Pairs)**
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Pair.PNG)
 
