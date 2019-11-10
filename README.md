@@ -37,3 +37,8 @@ We have 2 datasets for solving this problem:
 ## Suggested System Design
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/SystemDesign.PNG)
+
+## Text Cleaning and Forming Sentences
+1. We remove undesirable characters, punctuations, and bulletins.
+2. Use periods and the line brakes to decompose the text into sentences.
+
