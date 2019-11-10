@@ -28,3 +28,14 @@ Input Image
 Output Image
 
 We want to develop a system to automate all steps before compilation.  Thus, the system should be capable of cleaning the input, forming sentences, extracting similar sentences from the repository, and provide all this information to the admin for final check and compilation.
+
+## Data Description
+
+We have 2 datasets for solving this problem:
+
+1. **Corpus:** Previous published Job Descriptions without the information of employers input. We need to extarct similar sentence from this corpus.(Size: 400k JD's)
+few examples image
+2. **Input-Output Pair** Previous published Job Descriptions with the information of employers input. We will use this to build and validate our system.(Size: 40k Pairs)
+few examples image
+
+## Suggested System Design
