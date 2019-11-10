@@ -1,3 +1,3 @@
-# Sentence_Encoding_Application
+# PracticalApplication_SentenceEncoding
 
 something
