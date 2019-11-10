@@ -44,3 +44,7 @@ We have 2 datasets for solving this problem:
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/TextClean.PNG)
 
+## Sentence Encoding and Text Similarity
+1. **Significance of Similarity:** We need to validate Sentence Encoding leads to meaningful representation vector and thus, the similarity calculated using it is significant and not random.
+2. **Generate Sentence Pairs:** To develop and evaluate methods for extracting similar sentences we need to have a reference set of similar sentences pair.
+3. **Evaluation:** We need to evaulate different methods for Sentence Encoding and select the best one.
