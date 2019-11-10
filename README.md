@@ -5,8 +5,7 @@ The past few years have been revolutionary time for Natural Language Processing,
 Sentence Encoding is critical use case of the Natural Language Understanding model.
 It helps to represent a sentence as a numerical vector, thus, making it possible to use mathematical operations on it.
 
-![Image description]
-(https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/SentEnc.PNG)
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/SentEnc.PNG)
 
 The notable applications of sentence encoding are:
 1. Text Classification, which has a widespread utilization for sentiment analysis.
