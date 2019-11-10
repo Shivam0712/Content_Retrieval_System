@@ -51,7 +51,7 @@ We have 2 datasets for solving this problem:
 
 ### Significance of Similarity
 
-1. We generate 2 paired sample sets:
+1. We generate 2 paired sample sets: \n
   a. **Actual Pair:** We take actual pairs of input and final JD from Input-Output Pair dataset.
   b. **Random Pair:** We randomly pair the input JD's with final JD's in Input-Output Pair dataset.
 
