@@ -117,4 +117,25 @@ Till recent times, Google Bert was the state-of-the art method for Natural Langu
 We use the pretrained model provided in the [Sentence-Transformer](https://pypi.org/project/sentence-transformers/) python package.
 
 **Please Note: We have not trained any of the above-mentioned methods on our datasets. All results are produced using the pretrained weights.**
+
+#### Evaluation:
+
+In our system, for each input sentence, we have to provide suggestion of top-n similar sentences. Ranking might or might not be important for these suggestion. Based on this criteria we use 2 evaulation metric.
+
+**Please note: For the top-n suggestions based on similarity with input sentence, the relevance for evaluation is calculated using the similarity of the suggestion with the paired output sentence.**
+
+**1. [Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)**
+It is based on the assumption, rank of suggestion is not important.</br>
+It provide the sum of releveances of all suggestions.</br>
+Cutoff value(n) of 1,5, & 10 is used.</br>
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/CG.PNG)
+
+**2. [Normalized Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)**
+It is based on the assumption, rank of suggestion is important.</br>
+NDCG varies between 0 to 1, with 1 being the best performance.</br>
+Cutoff value(n) of 1,5, & 10 is used.</br>
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/DCG.PNG)
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/IDCG.PNG)
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/NDCG.PNG)
+
  
