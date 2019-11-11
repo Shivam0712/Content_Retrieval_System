@@ -149,7 +149,7 @@ Cutoff value(n) of 1,5, & 10 is used.</br>
 ### Final Example
 
 **Input:**
-![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalInput.png)
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalInput.PNG)
 
 **Output:**
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalOutput.png)
