@@ -16,9 +16,12 @@ In this project, I have demonstrated a prototype that uses sentence encoding to 
 
 1. An Indian platform collects 'Job Descriptions' from employers, process it, and post it on website. One of the most time consuming and labor-intensive task in this process is to clean and process these job descriptions written by employers.
 
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Problem.PNG)
+
 2. Currently, this process is done manually, where 6 to 8 people spend 8 hours a day. They clean these inputs, break them into sentences, finding similar sentences from previous published JD's, and finally compile it to make the publishable job description.
 
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/IOJD.PNG)
+
 
 **In this project, we have designed a system which cleans the input, forms sentences, and uses sentence encoding to extract similar sentences from the past published JD's.**
 
@@ -102,6 +105,9 @@ Thus, we generate pairs of sentences using these Rank1 pairs.
 
 #### Methods:
 
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Methods.PNG)
+
+
 **1. [TF-IDF: Term Frequency-Inverse Document Frequency](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)**
  TFIDF maps how important a word is to a document in a collection or corpus. Using this it creates a vector for the document based on the words present in the document. In our case the sentence is document. We create vector with 1024 dimensions.
 
@@ -149,11 +155,12 @@ Cutoff value(n) of 1,5, & 10 is used.</br>
 ### Final Example
 
 **Input:**
+
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalInput.PNG)
 
 **Output:**
-![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalOutput.png)
 
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalOutput.png)
 
 ### Conclusion
 
