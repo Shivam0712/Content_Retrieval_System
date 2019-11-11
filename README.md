@@ -138,4 +138,24 @@ Cutoff value(n) of 1,5, & 10 is used.</br>
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/IDCG.PNG)
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/NDCG.PNG)
 
+### Results
+
+#### Cumulative Gain Results
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/cg_results.PNG)
+
+#### Normalized Cumulative Gain Results
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/ndcg_results.PNG)
+
+### Final Example
+
+**Input:**
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalInput.PNG)
+
+**Output:**
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/FinalOutput.PNG)
+
+
+### Conclusion
+
+
  
