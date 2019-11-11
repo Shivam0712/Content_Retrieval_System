@@ -60,5 +60,5 @@ We have 2 datasets for solving this problem:
 
 3. To check this we conduct the 2 sample t-test on the sets of Similarity Scores for Actual and Randomly pairedobservations.
 
-4. We obatin sentence encoding using Google-Bert(Sentence Transformers Package in Python)(Link). For each JD(Input/Output/Both Sets), we calculate their embedding by averaging the encoding of their sentences. For each pair we calculate the similarity using Cosine Similarity(Link) from Sklearn-package(Link).
+4. We obatin sentence encoding using Google-Bert[(Sentence Transformers Package in Python)](https://pypi.org/project/sentence-transformers/). For each JD(Input/Output/Both Sets), we calculate their embedding by averaging the encoding of their sentences. For each pair we calculate the similarity using [Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) from [Sklearn-package](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html).
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/JDEncoding.PNG)
