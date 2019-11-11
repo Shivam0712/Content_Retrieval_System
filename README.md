@@ -62,3 +62,20 @@ We have 2 datasets for solving this problem:
 
 4. We obatin sentence encoding using Google-Bert[(Sentence Transformers Package in Python)](https://pypi.org/project/sentence-transformers/). For each JD(Input/Output/Both Sets), we calculate their embedding by averaging the encoding of their sentences. For each pair we calculate the similarity using [Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) from [Sklearn-package](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html).
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/JDEncoding.PNG)
+
+
+#### T-Test
+
+**H0:** The similarity in Random pairs is same or less than the similarity in Actual pairs.
+**Alpha:** 0.05
+
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/T-Test.png)
+
+**Results:**
+T-Statistics: 365.92841
+P-Value: 0.0
+
+The results of the T-Test signifies that the similarity in the set with actual pairs is significantly higher than that in the random pair set. Thus, we reject the Null Hypothesis.
+
+**This signififes finding similarity using encoding is significant and reasonable.**
+
