@@ -54,9 +54,10 @@ We have 2 datasets for solving this problem:
 1. We generate 2 paired sample sets: <br/>
   a. **Actual Pair:** We take actual pairs of input and final JD from Input-Output Pair dataset.<br/>
   b. **Random Pair:** We randomly pair the input JD's with final JD's in Input-Output Pair dataset.
+  
+2. The input and final Job Description's in the 'Input-Output Pair dataset', should be semantically similar to each other. Thus, the similarity between the encoding of these paired dataset should be significntly higher than the similairty between the encodings of the random pairs.
 
-2. We clean these samples, form sentences for each observation in both the sample sets.
-3. We obatin sentence encoding using Google-Bert(Sentence Transformers Package in Python)(Link). For each JD(Input/Output/Both Sets), we calculate their embedding by averaging the encoding of their sentences.
-4. For each pair we calculate the similarity using Cosine Similarity(Link) from Sklearn-package(Link).
-5. On the sets of Similarity Score of Actual Pairs and Random Pairs, we conduct 2 sample t-test to test if the 2 sets are significantly different. 
+3. To check this we conduct the 2 sample t-test to on sets of Similarity Scores between the pair of observations in these sets.
+
+4. We obatin sentence encoding using Google-Bert(Sentence Transformers Package in Python)(Link). For each JD(Input/Output/Both Sets), we calculate their embedding by averaging the encoding of their sentences. For each pair we calculate the similarity using Cosine Similarity(Link) from Sklearn-package(Link).
 
