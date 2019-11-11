@@ -149,10 +149,18 @@ Cutoff value(n) of 1,5, & 10 is used.</br>
 #### Cumulative Gain Results
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/cg_results.png)
 
+1. TF-IDF is not able to perform at all. The reason for this poor performance is it misses ouyt a large portion of vocabulary due to limited size of features.
+
+2. Bert is able to perform better than others when order is not important.
+
 #### Normalized Cumulative Gain Results
 ![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/ndcg_results.png)
 
+1. InferSent outperforms Bert when order is important.
+
 ### Final Example
+
+Finally we use Bert for suggesting the the similar sentence as order is not important in this case.
 
 **Input:**
 
@@ -164,5 +172,8 @@ Cutoff value(n) of 1,5, & 10 is used.</br>
 
 ### Conclusion
 
+1. We have successfully demnostrated the prototype to use sentence encoding for extarcting similar information.
+2. The developed systems helps to increase efficiency by 30%.
+3. The current results were achieved without training the methods on our dataset. Fine the methods on our datasets will help to further increase the performance of the system.
 
  
