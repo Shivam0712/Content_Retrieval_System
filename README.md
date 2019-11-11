@@ -16,7 +16,7 @@ In this project, I have demonstrated a prototype that uses sentence encoding to 
 
 1. An Indian platform collects 'Job Descriptions' from employers, process it, and post it on website. One of the most time consuming and labor-intensive task in this process is to clean and process these job descriptions written by employers.
 
-![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Problem.PNG)
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/Problem1.PNG)
 
 2. Currently, this process is done manually, where 6 to 8 people spend 8 hours a day. They clean these inputs, break them into sentences, finding similar sentences from previous published JD's, and finally compile it to make the publishable job description.
 
