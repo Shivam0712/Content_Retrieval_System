@@ -79,3 +79,22 @@ The results of the T-Test signifies that the similarity in the set with actual p
 
 **This signififes finding similarity using encoding is significant and reasonable.**
 
+### Generate Sentence Pairs
+
+1. So far, we have calculated similarity on Job Description level. But, ultimately we want to calculate similarity on sentences.
+The problem is **Unlike Job Descriptions, we don't have pairs of similar sentences**. 
+2. To create these sentence pairs we rely on the assumption that **in a given pair of input-output job description, for each sentence in the input, there lies a sentence in output which can be paired together.**
+3. If the assumption is true, for any given input sentence the similarity with most similar sentence in output should be significantly higher than similarity with other senetences.
+Thus, we plot the distribution of similarity score with the rank of similarity score.
+
+For each input sentence, we rank the output sentences based on their similarity.
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/RankTable.PNG)
+
+Next, we plot the distribution of similarity scores with the Rank.
+![Image description](https://github.com/Shivam0712/PracticalApplication_SentenceEncoding/blob/master/Images/RankBoxPlot.png)
+
+4. The above plot shows the similarity of Rank1 sentences are significantly higher than that sentences with of other ranks.
+Thus, we generate pairs of sentences using these Rank1 pairs.
+
+5. For evaulation of our methods we eliminate sentence pairs with similarity 1 as they are exactly similar, and will act as noise in results. also we eliminate pairs(if any) with similarity less than a threshold(0.8). 
+
