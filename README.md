@@ -96,5 +96,25 @@ Next, we plot the distribution of similarity scores with the Rank.
 4. The above plot shows the similarity of Rank1 sentences are significantly higher than that sentences with of other ranks.
 Thus, we generate pairs of sentences using these Rank1 pairs.
 
-5. For evaulation of our methods we eliminate sentence pairs with similarity 1 as they are exactly similar, and will act as noise in results. also we eliminate pairs(if any) with similarity less than a threshold(0.8). 
+5. For evaulation of our methods we eliminate sentence pairs with similarity 1 as they are exactly similar, and will act as noise in results. also we eliminate pairs(if any) with similarity less than a threshold(0.8).
 
+### Methods for Sentence Encoding and Evaluation of their performances.
+
+#### Methods:
+
+**1. [TF-IDF: Term Frequency-Inverse Document Frequency](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)**
+ TFIDF maps how important a word is to a document in a collection or corpus. Using this it creates a vector for the document based on the words present in the document. In our case the sentence is document. We create vector with 1024 dimensions.
+
+**2. Average of [Word2Vec](https://en.wikipedia.org/wiki/Word2vec)**
+ Word2Vec maps each word to a high dimensional vector. In our case we average the vectors of words in the sentence to generate sentence vector. We have used the pretrained [Google Word2Vec model](https://mccormickml.com/2016/04/12/googles-pretrained-word2vec-model-in-python/)
+ 
+**3. [InferSent](https://github.com/facebookresearch/InferSent)**
+InferSent is a sentence embeddings method developed by Facebook Research Group, and provides semantic representations for English sentences. It is trained on natural language inference data and generalizes well to many different tasks.
+Again we have used the pretrained model provided by the group.
+
+**4. [Bert-Nli](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)**
+Till recent times, Google Bert was the state-of-the art method for Natural Language Inference.
+We use the pretrained model provided in the [Sentence-Transformer](https://pypi.org/project/sentence-transformers/) python package.
+
+**Please Note: We have not trained any of the above-mentioned methods on our datasets. All results are produced using the pretrained weights.**
+ 
