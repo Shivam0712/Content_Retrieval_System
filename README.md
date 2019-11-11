@@ -1,4 +1,4 @@
-# PracticalApplication_SentenceEncoding
+# Retrieving Similar Content from Corpus Using Sentence Embedding
 
 Sentence Encoding helps to represent any sentence as a numerical vector, thus, making it possible to use mathematical operations on it.
 
